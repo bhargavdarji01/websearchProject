@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="F:\websearch\app\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="F:\websearch\app\src\main\res\drawable\ic_launcher.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="magglass"
+                path="F:\websearch\app\src\main\res\drawable\magglass.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="magglass"
+                path="F:\websearch\app\src\main\res\drawable-hdpi\magglass.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="magglass"
+                path="F:\websearch\app\src\main\res\drawable-ldpi\magglass.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="magglass"
+                path="F:\websearch\app\src\main\res\drawable-mdpi\magglass.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="magglass"
+                path="F:\websearch\app\src\main\res\drawable-xhdpi\magglass.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main"
+                path="F:\websearch\app\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="F:\websearch\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="item_height" >48dp
+                </dimen>
+                <dimen name="tagged_searches_padding" >8dp
+                </dimen>
+            </file>
+            <file
+                path="F:\websearch\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="hello" >Hello World, WebSearchActivity!
+                </string>
+                <string name="prompt" >Search For
+                </string>
+                <string name="app_name" >Web Search
+                </string>
+            </file>
+            <file
+                path="F:\websearch\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="F:\websearch\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="F:\websearch\app\build\generated\res\rs\debug" />
+        <source path="F:\websearch\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="F:\websearch\app\src\debug\res" />
+    </dataSet>
+
+</merger>
